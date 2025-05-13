@@ -1,12 +1,12 @@
-let numero; // variavel que armazena o valor dado pelo usuario
+let numero; // variável que armazena o valor dado pelo usuário
 
 do {
-    numero = parseInt(prompt("Escreva um número positivo:")); //funcao que pede ao usuario escrever um numero positivo
+    numero = parseInt(prompt("Escreva um número positivo:")); //função que pede ao usuário escrever um numero positivo
 
-    if (numero < 0 || isNaN(numero)) { //condicao quando o numero for menor que zero e se o usuario colocar uma letra ele nao aceita
+    if (numero < 0 || isNaN(numero)) { //condição quando o número for menor que zero e se o usuário colocar uma letra ele não aceita
         alert("você não escreveu um número positivo");
     }
 
-} while (numero < 0 || isNaN(numero)); //funcao que enquanto o usuario nao digitar um numero positivo fica repetindo infintamente
+} while (numero < 0 || isNaN(numero)); //função que enquanto o usuário não digitar um número positivo fica repetindo infintamente
 
 alert(`boa você digitou um numero positivo`);
