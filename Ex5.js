@@ -9,9 +9,8 @@ while (saldo > 0) {
     } else if (saque > saldo) { // verifica se o usario esta tentando sacar mais do que ele tem, se estiver o programa fala que ele nao tem saldo suficiente
         alert("Você não tem saldo");
     } else {
-        saldo -= saque;
-        alert(`Você fez um saque de ${saque.toFixed(2)}R$ agora você tem ${saldo.toFixed(2)}R$`); // quando ele termina o programa mostra o valor do saque e o montante restante
+        saldo = (saldo-saque);
+        alert(`agora você tem ${saldo}`) // faz a conta do saldo final e manda o valor do saldo para o usuário
     }
 }
 
-alert("Você não tem saldo"); // caso nehuma funcao de certo o programa avisa para o usuario que ele nao tem saldo
