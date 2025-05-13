@@ -1,6 +1,6 @@
-let nota; //variável que armzena as notas do usuario
+let nota; //variável que armzena as notas do usuário
 let soma = 0; // variável da soma (tem que ser zero para não interferir no calculo da media)
-let i = 0; // variável da repeticao
+let i = 0; // variável da repetição
 
 do { // função que pede o valor da nota infintamente
     nota = parseFloat(prompt(`${i + 1}ª nota`)); 
