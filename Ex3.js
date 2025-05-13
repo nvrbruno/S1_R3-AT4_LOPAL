@@ -1,5 +1,5 @@
-let valor; // variavel que arazena o valor da compra
-let total = 0; // variavel do total para que o valor nao interfira na soma dos valores
+let valor; // variável que arazena o valor da compra
+let total = 0; // variável do total para que o valor não interfira na soma dos valores
 
 do {
     valor = parseFloat(prompt("Escreva o valor da compra:")); // programa pede para o usuario informar os valores
@@ -10,6 +10,6 @@ do {
         alert("Escreva um valor maior que 0");
     }
 
-} while (valor === 0); // funcao que repete a funcao ate que o valor seja igual a zero, se for o programa escreve o valor total da compra
+} while (valor === 0); // função que repete ate que o valor seja igual a zero, se for o programa escreve o valor total da compra
 
 alert(`Total da compra é de: ${total.toFixed(2)}R$`);
