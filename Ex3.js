@@ -3,8 +3,8 @@ let total = 0; // variável do total para que o valor não interfira na soma dos
 
 do {
     valor = parseFloat(prompt("Escreva o valor da compra:")); // programa pede para o usuario informar os valores
-    if (valor > 0) {
-        total = (valor + valor); // se o valor for maior que zero ele repete infintamente
+    if (valor > 0) {// se o valor for maior que zero ele repete infintamente
+        total = (valor + valor); 
     } else if (valor < 0 || isNaN(valor)) {  // se o valor for menor que zero ou o usuario escreva uma letra o programa pede para o usuario escrever um numero maior que zero
         alert("Escreva um valor maior que 0");
     }
