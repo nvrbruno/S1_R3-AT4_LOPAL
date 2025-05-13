@@ -4,7 +4,7 @@ let i = 0; // variável da repetição (quantidade de vez que o usuário escreve
 do { // função que pede o valor da nota infintamente
     nota = parseFloat(prompt(`${i + 1}ª nota`)); 
     if (nota >= 0 && nota <= 10) { // condição verifica que um número é maior ou igual a zero e menor que 10
-        soma += nota;
+        soma = (nota + nota);
         i++;
     } else if (nota >= 0 && nota >= 10) { // condição verifica que um número é menor ou igual a zero e maior que 10
         alert("Nota inválida. Digite um número entre 0 e 10.");
